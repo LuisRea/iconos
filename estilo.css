@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu li{
     display: inline-block;
-    border-right: 1px solid rgba(100, 100, 100, 0.4);
+    border-right: 1px solid rgba(100, 100, 100, 0.6);
 }
 .menu a{
     color: white;
@@ -42,4 +42,66 @@ h1, h2, h3, h4, h5, h6 {
 .texto h1{
     font-size: 6em;
     letter-spacing: -5px; /*esta propiedad junta y separa las letras de una palabra u oracion*/
+}
+    /*trabajando los parrafos*/
+.parrafos{
+    color: #777;
+    padding: 70px;
+}
+.parrafos h2{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.parrafos h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.parrafos p{
+    margin-bottom: 10px;
+    line-height: 1.5em;  /*esta propiedad denota los espacios entre lineas*/
+}
+    /*trabajando seccion frase*/
+.frase{
+    background-image: url(imagenes1/fondo.jpg);
+    padding: 100px;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(139, 138, 138);
+}
+.frase h4{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+    /*trabajando el footer*/
+footer{
+    background-color: #202020;
+    text-align: center;
+    color: #777;
+}
+.contacto{
+    padding: 50px;
+}
+.contacto h3{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.contacto p{
+    font-size: 1.5em;
+}
+.social{
+    padding: 50px;
+}
+.social a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 20px;
+}
+.legal{
+    padding: 30px;
+    border-top: 1px solid #333;
 }

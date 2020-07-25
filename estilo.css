@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+    /*ATACANDO EL HEADER*/
+.cabecera{
+    background-image: url(imagenes1/fondo.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.cabecera{
+    background-color: rgba(0, 0, 0, 0.1); /*se usa RGBA cuando hay trasparencias*/
+}
+.menu li{
+    display: inline-block;
+    border-right: 1px solid rgba(100, 100, 100, 0.4);
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 25px 15px;
+}
+.menu .boto{
+    border-right: 0px;
+}
+.texto{
+    padding: 100px 0px;
+}
+.texto h1{
+    font-size: 6em;
+    letter-spacing: -5px; /*esta propiedad junta y separa las letras de una palabra u oracion*/
+}
